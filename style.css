@@ -1,0 +1,98 @@
+body {
+	background-color: #FFC0CB;
+	color: #656176;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	color: #279AF1;	
+	font-size: 32x;
+	font-weight: 900;
+}
+
+h2 {
+	color: #A4AF69;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #279AF1;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: #FB8B24;
+}
+
+/* Custom Design with Class (99% of design)*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	margin: 20px auto;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #279AF1;
+	color: white;
+	padding: 5px 5px;
+	margin: 5px auto;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+/* Design Adjustment Using ID (1% of design remaining)*/
+#profile {
+	width: 35%;
+  height: 35%;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
